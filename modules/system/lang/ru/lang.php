@@ -13,13 +13,16 @@ return [
         'fa' => 'Persian',
         'fr' => 'French',
         'hu' => 'Hungarian',
+		'id' => 'Bahasa Indonesia',
         'it' => 'Italian',
         'ja' => 'Japanese',
         'nl' => 'Dutch',
+		'pl' => 'Polish',
         'pt-br' => 'Brazilian Portuguese',
         'ro' => 'Romanian',
         'ru' => 'Russian',
         'se' => 'Swedish',
+		'sk' => 'Slovak (Slovakia)',
         'tr' => 'Turkish',
     ],
     'directory' => [
@@ -114,6 +117,7 @@ return [
         'smtp_password' => 'SMTP пароль',
         'smtp_port' => 'SMTP порт',
         'smtp_ssl' => 'Использовать SSL',
+		'sendmail' => 'Sendmail',
         'sendmail_path' => 'Sendmail Путь',
         'sendmail_path_comment' => 'Пожалуйста, укажите путь к sendmail.',
         'mailgun' => 'Mailgun',
@@ -121,6 +125,9 @@ return [
         'mailgun_domain_comment' => 'Пожалуйста, укажите Mailgun домен.',
         'mailgun_secret' => 'Секретный API-ключ',
         'mailgun_secret_comment' => 'Введите ваш Mailgun API-ключ.',
+		'mandrill' => 'Mandrill',
+        'mandrill_secret' => 'Mandrill Secret',
+        'mandrill_secret_comment' => 'Введите ваш Mandrill API-ключ.'
     ],
     'mail_templates' => [
         'menu_label' => 'Шаблоны почты',
@@ -170,6 +177,8 @@ return [
         'core_build_new_help' => 'Последняя доступная сборка.',
         'core_downloading' => 'Загрузка файлов приложения',
         'core_extracting' => 'Распаковка файлов приложения',
+		'plugins' => 'Плагины',
+        'disabled' => 'Выключен',
         'plugin_downloading' => 'Загрузка плагина: :name',
         'plugin_extracting' => 'Распаковка плагина: :name',
         'plugin_version_none' => 'Новый плагин',
@@ -242,9 +251,11 @@ return [
         'status_code' => 'Статус',
     ],
     'permissions' => [
+		'name' => 'Система',
         'manage_system_settings' => 'Настройка системных параметров',
         'manage_software_updates' => 'Управлять обновлениями',
-        'manage_mail_templates' => 'Управление почтовыми шаблонами',
+        'manage_mail_templates' => 'Управление шаблонами почты',
+		'manage_mail_settings' => 'Управление настройками почты',
         'manage_other_administrators' => 'Управление другими администраторами',
         'view_the_dashboard' => 'Просмотр приборной панели'
     ]
